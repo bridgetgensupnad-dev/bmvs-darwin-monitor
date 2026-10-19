@@ -1,0 +1,14 @@
+BMVS DARWIN MONITOR — 5-MINUTE FREE SETUP
+
+1. Telegram -> @BotFather -> /newbot -> copy TOKEN.
+2. Open your new Telegram bot -> send /start.
+3. GitHub -> create PUBLIC repo -> upload everything in this folder.
+4. Repo Settings -> Secrets and variables -> Actions -> Secrets:
+      TELEGRAM_BOT_TOKEN = your token
+5. Repo Settings -> Secrets and variables -> Actions -> Variables:
+      BMVS_EXAM_CODES = your referral-letter codes (example: 501,502)
+6. Actions -> Check BMVS Darwin -> Run workflow.
+
+If the bot says Bupa requires personal details before the calendar, add the requested BUPA_* values as GitHub SECRETS and run it again.
+
+After the test succeeds, it checks automatically every ~5 minutes.
